@@ -1,0 +1,132 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+ <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="site-content">
+    <div class="header ">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo@2x.png" alt="" width="64" height="38" class="d-inline-block align-text-top ">
+            <div class="log-description d-inline-block">
+              <h1 class="fs-6  mb-1 text-white">Weather</h1>
+              <small class="d-block ">tagline goes here</small>
+            </div>
+
+          </a>
+
+          <button class="navbar-toggler rounded-pill py-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item ">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+ 
+    <div class="main ">
+
+      <div class="image" style="background-image:url(./img/banner.png);">
+        <div class="container position-relative ">
+          <form class="find-location position-relative">
+            <input list="locations" type="text" placeholder="Find your location..." id="search">
+            <!-- <datalist id="locations"></datalist> -->
+            <input class="btn btn-primary" id="submit1" type="button" value="find">
+          </form>
+        </div>
+      </div>
+
+      <!-- <div class="weather-card"> -->
+      <div class="container  ">
+        <!-- <div id="suggestion-box"></div> -->
+
+        <div class="weather-container " id="weather-container">
+          <!-- <div class="today-forcast">
+              <div class="card text-bg-light mb-3" >
+               <div class="d-flex justify-content-between align-items-center ">
+                <span class="card-header ">Saturday</span>
+                <span class="card-header">14December</span>
+
+               </div>
+                 <div class="location"></div>
+                 <div class="temperature">°C</div>
+                 <img src="" alt="weather Icon" class="icon">
+                 <div class="description"></div>
+                 <div class="details">
+                  <span><img src="./img/icon-umberella@2x.png" alt="">%</span>
+                  <span><img src="./img/icon-wind@2x.png" alt="">Km/h</span>
+                  <span><img src="./img/icon-compass@2x.png" alt="">°</span>
+                 </div>
+              </div>
+            </div> -->
+
+
+          <!-- <div class="icon"></div> -->
+
+          <!-- <img src="./img/icon-umberella@2x.png" alt="">
+          <img src="./img/icon-wind@2x.png" alt="">
+          <img src="./img/icon-compass@2x.png" alt=""> -->
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <footer >
+      <div class="container">
+         <div class="row">
+          <div class="col-md-8">
+            <form class="subscribe-form position-relative ">
+              <input type="text" placeholder="Enter your email to subscribe..." >
+              <input class="btn btn-primary" id="submit"  value="Subscribe">
+            </form>
+          </div>
+          <div class="col-md-3 ">
+            <div class="social-link  ">
+              
+                <a href="#"> <i class="fa-brands fa-facebook-f d-inline-block"></i></a>
+              <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+              <a href="#"> <i class="fa-brands fa-google-plus"></i></a>
+              <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
+              
+              
+            </div>
+          </div>
+         </div>
+      </div>     
+    </footer>
+  </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
